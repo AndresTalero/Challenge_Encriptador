@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+
+    <title>Encriptador | Oracle+AluraLATAM</title>
+    
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    
+    <header class="header">
+        <div>
+            <img src="./img/icon.svg" alt="logo de Alura"/>            
+        </div>
+    </header>
+
+    <main>
+        <section class="textoEntrada">
+            <textarea name="text" class="text-area" placeholder="ingrese el texto aquí" id="textoEntrada"></textarea>
+        </section>
+
+        <section class="buttons">
+            <p>
+                <span class="span"><img src="./img/alert.svg" alt="icono aviso">
+                    Solo letras minúsculas y sin acentos
+                </span>
+            </p>
+            <div class="btn-container">
+                <button id="botonEncriptar">Encriptar</button>
+                <button id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="textoSalida">
+            <div class="info-output">
+                <div class="munieco-container" id="cont-img-munieco"></div>
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desea encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Creado por <span>Cesar Andrés Talero</span> - &copy; 2023.            
+        </p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
